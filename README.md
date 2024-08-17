@@ -1,14 +1,32 @@
-# Turborepo Tailwind CSS starter
+# Turborepo Shadcn/ui starter
 
-This is an official starter Turborepo.
+This is Turborepo starter with shadcn/ui pre-configured.
 
 ## Using this example
 
-Run the following command:
+Clone the repository:
 
 ```sh
-npx create-turbo@latest -e with-tailwind
+git clone https://github.com/dan5py/turborepo-shadcn-ui.git
 ```
+
+Install dependencies:
+
+```sh
+cd turborepo-shadcn-ui
+pnpm install
+```
+
+### Add ui components
+
+Use the pre-made script:
+
+```sh
+pnpm ui:add <component-name>
+```
+
+> This works just like the add command in the `shadcn/ui` CLI.
+
 
 ## What's inside?
 
